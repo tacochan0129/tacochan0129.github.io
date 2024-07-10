@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲實況主 - 小明的遊戲頻道</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>小明的遊戲頻道</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">首頁</a></li>
+            <li><a href="#schedule">直播時間表</a></li>
+            <li><a href="#videos">影片存檔</a></li>
+            <li><a href="#about">關於我</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>歡迎來到小明的遊戲頻道！</h2>
+            <p>這裡是熱愛遊戲的小明的直播頻道。跟我一起探索各種精彩刺激的遊戲世界吧！</p>
+            <div class="video-container">
+                <img src="/api/placeholder/800/450" alt="直播影片佔位圖" />
+            </div>
+        </section>
+        <section id="schedule">
+            <h2>直播時間表</h2>
+            <ul>
+                <li>週一晚上 8:00 - 魔獸世界</li>
+                <li>週三晚上 9:00 - 英雄聯盟</li>
+                <li>週五晚上 7:00 - Minecraft</li>
+                <li>週日下午 2:00 - 隨機遊戲日</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 小明的遊戲頻道. 版權所有.</p>
+    </footer>
+</body>
+</html>
